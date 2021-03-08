@@ -1,0 +1,392 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: monospace;
+    color: white;
+}
+
+body{
+    background-image: url('laptop.jpg');
+    background-attachment: fixed;
+}
+
+
+.nav ul {
+    display: flex;
+    float: right;
+    clear: left;
+}
+.nav ul li{
+    margin: 30px 10px;
+    list-style-type: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: 900;
+    border: none;
+    border-radius: 5px;
+}
+.nav ul li a{
+    text-decoration: none;
+}
+
+
+.show-case img{
+    margin: 3px;
+}
+
+.tech-used{
+    grid-area: tech-used;
+    display: flex;
+}
+
+.tech-used .l{
+    padding: 20px;
+    margin: 0px;
+}
+
+.tech-used .r{
+    padding: 20px;
+    margin: 0px;
+}
+
+
+.sec2{
+    background-color: rgb(26, 26, 26);
+}
+
+
+.projects{
+    background-color: rgb(20, 19, 19);
+}
+.blog{
+    background-color: rgb(26, 26, 26);;
+}
+.btn{
+    box-sizing: border-box;
+    background-color: #02D463;
+    border: none;
+    padding: 16px 25px;
+    color: #FFFFFF;
+    font-size: 17px;
+    font-weight: 900;
+    border-radius: 3px;
+}
+
+.sbt-btn
+{
+    box-sizing: border-box;
+    background-color: #02D463;
+    border: none;
+    padding: 15px 30px;
+    color: #FFFFFF;
+    font-size: 17px;
+    font-weight: 900;
+    border-radius: 3px;
+}
+
+.btn:hover{
+    border: 2px solid#02D463;
+    background-color: transparent;
+    color: #02D463;
+}
+.sbt-btn:hover{
+    border: 2px solid#02D463;
+    background-color: transparent;
+    color: #02D463;
+}
+
+#selected{
+    border: 2px solid#02D463;
+    padding: 13px 25px;
+    margin-right: 40px;
+    color: #02D463;
+}
+#selected:hover{
+    background-color:#02D463;
+    color: #FFFFFF;
+}
+.nav a:hover{
+    color: #02D463;
+}
+.tech-used li{
+    list-style-type: none;
+}
+span:hover{
+    color: rgb(2, 212, 99);
+}
+.fas,.fab,.far{
+    color: rgb(2, 212, 99);
+}
+
+.footer i{
+    margin: 5px;
+    color: white;
+}
+.footer i:hover{
+    color:#02D463;
+}
+.show-case{
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 0px;
+}
+.show-case img{
+    background-color: #02D463;
+    padding: 2px;
+    margin: 3px 1px;         
+    transition-property: width;
+    transition-duration: 0.5s;
+}
+
+.tech-used li{
+    margin: 10px;
+}
+.tech-used span{
+    font-size: 16px;
+}
+.partners img{
+    border-radius: 5px;
+    box-shadow: rgb(0 0 0) 0px 0px 20px;
+    margin: 10px;
+}
+.contact{
+    padding: 5% 20%;
+    background-color: #111111;
+}
+
+.contact .txt{
+    padding: 15px;
+    background-color: #1A1A1A;
+    border: none;
+    box-shadow: rgb(0 0 0 / 50%) 0px 0px 10px;
+    border-radius: 5px;
+
+}
+.contact .txt:hover{
+    border:2px solid #02D463;
+    color: #02D463;
+}
+.contact .txt-area:hover{
+    border:2px solid #02D463;
+    color: #02D463;
+}
+.contact .txt-area{
+    padding: 15px;
+    background-color: #1A1A1A;
+    border: none;
+    box-shadow: rgb(0 0 0 / 50%) 0px 0px 10px;
+}
+span{
+    color: #BDBDBD;
+}
+.contact label{
+    color: #BDBDBD;
+    font-size: 16px;
+    margin: 145px;
+}
+.footer{
+    padding: 30px;
+    background-color: #111111;
+    font-size: large;
+    border-top: 1px solid rgb(33, 33, 33);
+}
+.partners img:hover{
+    width: 251px;
+}
+.show-case img:hover{
+    width: 265px;
+}
+
+.projects{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: transparent;
+    padding: 8%;
+   
+}
+.project-wrapper{
+    background-color: #1A1A1A;
+}
+.projects img{
+    margin: 50px;
+    box-shadow: rgb(0 0 0) 0px 0px 20px;
+
+}
+.plans ul li{
+    list-style-type: none;
+}
+.plans{
+    background-color: #111111;
+    box-sizing: border-box;
+}
+.columns{
+    padding: 10px;
+    background-color: #1A1A1A;
+    margin: 10px;
+    font-size: 18px;
+}
+.header{
+    background-color: ;
+    padding: 10px 20px;
+}
+.button{
+    padding: 20px 133px ;
+    background-color: #02D463;
+    border-radius: 5px;
+}
+.button:hover{
+    border: 2px solid#02D463;
+    background-color: transparent;
+    color: #02D463;
+}
+a{
+    text-decoration: none;
+}
+
+.top{
+    display: flex;
+
+}
+
+.top .nav{
+    position: absolute;
+    right: 10px;
+}
+
+.sec1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 9%;
+}
+.sec1 .left{
+    margin-left: 15%;
+    margin-top:10%;
+    padding: 0;
+    width: fit-content;
+}
+
+.sec1 .right{
+    width:fit-content;
+}
+
+.about{
+    grid-area: about;
+}
+.tech-used{
+    grid-area: tech-used;
+}
+.partners{
+    grid-area: partners;
+    margin: 7%;
+}
+.sec2{
+    display: grid;
+    grid-template-areas: 'about about partners partners'
+                         'tech-used tech-used partners partners';
+   padding: 3%;
+}
+.partners{
+    display: grid;
+    grid-template-areas:
+                         'Sandyy Mendyy'
+                         'Sandyy Mendyy'
+                         'quotes quotes';
+    
+}
+.title{
+    grid-area: title;
+}
+.Sandyy{
+    grid-area: Sandyy;
+}
+.Mendyy{
+    grid-area: Mendyy;
+}
+.quotes{
+    grid-area: quotes;
+}
+.plans-wrapper{
+    padding: 3%;
+}
+.plans{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 3%;
+}
+
+.footer{
+    width: 100vw;
+}
+
+* {
+box-sizing: border-box;
+}
+.row::after {
+content: "";
+clear: both;
+display: table;
+}
+
+[class*="col-"] {
+float: left;
+padding: 15px;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .sec1{  
+        grid-template-columns: 100%;
+    }
+    .sec2{
+        grid-template-areas: 'about about'
+        'partners partners'
+        'tech-used tech-used';
+
+        width: fit-content;
+        padding: 10%;
+    }
+    .partners{
+        margin: 0%;
+    }
+    .plans-wrapper{ 
+        width: fit-content;
+        padding: 10% 50% 10% 30%;
+    }
+    .plans .columns{
+        padding: 3%;
+        width: fit-content;
+        padding-right: 13%;
+    }
+    .sec1 .right {
+        width:50%;
+        margin: 15%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .plans{
+        grid-template-columns: 100%;
+        padding: 5%;
+        margin: 0%;
+        width: 100vw;
+        align-items: center;
+    }
+    .projects{
+        grid-template-columns: 1fr;
+        width: fit-content;
+    }
+    .contact{
+        width: fit-content;
+        padding: 30% 38% 30% 38%;
+    }
+    .footer{
+        width: 700px;
+        padding: 10%;
+    }
+    .sec1 .left{
+        width: fit-content;
+        margin-right: 0%;
+        padding-right: 0%;
+    }
+}
